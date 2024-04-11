@@ -25,7 +25,7 @@ public class Main {
         GroupCollection groupCollection = new GroupCollection(dumpManager);
         CommandInvoker commandInvoker = new CommandInvoker(groupCollection, dumpManager);
         Runner runner = new Runner(commandInvoker);
-        runner.start();
+        runner.start();//test commit
 
 
     }
