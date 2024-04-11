@@ -5,7 +5,7 @@ import ru.itmo.utility.Console;
 
 /**
  * Команда 'execute_script'. Выполнить скрипт из файла.
- * @author zevtos
+ * @author BuTу3
  */
 public class ExecuteScript extends Command {
     private final Console console;
