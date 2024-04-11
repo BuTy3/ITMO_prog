@@ -1,0 +1,15 @@
+[
+  {
+    "id": 2,
+    "name": "las;dfkj",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "Mar 29, 2024, 11:10:48 AM",
+    "studentsCount": 1,
+    "formOfEducation": "DISTANCE_EDUCATION",
+    "semesterEnum": "SECOND",
+    "groupAdmin": null
+  }
+]
