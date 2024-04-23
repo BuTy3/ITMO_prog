@@ -11,8 +11,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- */
 public class Main {
     public static final StandardConsole console = new StandardConsole();
     public static void main (String[] args){
@@ -26,7 +24,5 @@ public class Main {
         CommandInvoker commandInvoker = new CommandInvoker(groupCollection, dumpManager);
         Runner runner = new Runner(commandInvoker);
         runner.start();//test commit
-
-
     }
 }

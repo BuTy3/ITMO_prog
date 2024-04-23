@@ -43,11 +43,11 @@ public class Runner {
     }
 
     private void handleExit() {
-        commandInvoker.executeCommand(new String[]{"exit"});
+        commandInvoker.executeCommand(new String[]{"exit", ""});
     }
 
     private void safelyExit() {
-        commandInvoker.executeCommand(new String[]{"save"});
-        commandInvoker.executeCommand(new String[]{"exit"});
+        commandInvoker.executeCommand(new String[]{"save", ""});
+        commandInvoker.executeCommand(new String[]{"exit", ""});
     }
 }

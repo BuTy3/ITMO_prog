@@ -41,7 +41,7 @@ public class RemoveAllByStudentsCount extends Command {
             return;
 
         } catch (InvalidNumberOfElementsException exception) {
-            console.println("Использование: '" + getName() + "'");
+            console.println("Использование: '" + getName() + "' некорректно");
         } catch (EmptyValueException exception) {
             console.printError("Коллекция пуста!");
         } catch (NumberFormatException exception) {
